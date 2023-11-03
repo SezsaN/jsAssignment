@@ -1,0 +1,46 @@
+.crito-footer-bottom {
+    background-color: #0E1021;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+
+    .container {
+
+        .content-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            p {
+                display: none;
+                color: #A1A2A8;
+
+                @media (min-width: 768px) {
+                    display: flex;
+                }
+            }
+
+            .mobile {
+                display: flex;
+                align-items: center;
+
+                @media (min-width: 768px) {
+                    display: none;
+                }
+            }
+
+            a {
+               color: #A1A2A8;
+               margin-left: 10px;
+
+               @media (min-width: 768px) {
+                     margin-left: 15px;
+               }
+
+               &:hover {
+                color: #DAD9D3; 
+               }
+            }
+        }
+    }
+}

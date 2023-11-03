@@ -1,0 +1,160 @@
+.about-company {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        margin-top: 120px;
+        
+        .content-left {
+            position: relative;
+            z-index: 0;
+
+            img {
+                display: none;
+                height: 600px;
+                width: 500px;
+                margin-left: 130px;
+
+                @media (min-width: 1400px) {
+                    display: block;
+                    
+                    
+                }
+            }
+
+            .founder {
+               
+               
+                
+                .box {
+                    display: none;
+                    position: relative;
+                    left: 40px;
+                    top: -215px;
+                    z-index: 1;
+                    height: 180px;
+                    width: 386px;
+                    background-color: #BEEBFF;
+
+                    @media (min-width: 1400px) {
+                        display: block;
+                        
+                    }
+                    
+                    h3 {
+                        position: relative;
+                        left: 26px;
+                        top: 40px;
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 700;
+                        font-size: 20px;
+                        
+                    }
+
+                    .title {
+                        position: relative;
+                        left: 205px;
+                        top: 9px;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #F94D1C;
+                        
+                    }
+
+                    .description {
+                        position: relative;
+                        left: 24px;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 300;
+                        color: #191919;
+                    }
+                }
+            }
+                
+        }
+        
+        .content-right {
+            // margin-left: 180px;
+
+            @media (min-width: 1400px) {
+                margin-left: 180px;
+            }
+            
+            .title {
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                color: #F94D1C;
+                margin-bottom: 20px;
+                text-align: center;
+
+                @media (min-width: 768px) {
+                    text-align: start;
+                }
+                
+            }
+
+            h2 {
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+                margin-right: 10px;
+                margin-bottom: 50px;
+                text-align: center;
+
+                @media (min-width: 768px) {
+                    font-size: 45px;
+                    text-align: start;
+                }
+                
+            }
+
+            .first-p {
+                line-height: 1.8;
+                
+            }
+
+            .second-p {
+                line-height: 1.8;
+                margin-bottom: 120px;
+            }
+            
+            a {
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                text-decoration: none;
+                
+
+                p {
+                    margin: 0;
+                    color: #191919;
+                }
+
+            }
+
+        }
+
+            .btn-video {
+                
+                width: 56px;
+                aspect-ratio: 1;
+                
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .flex {
+                display: flex;
+                gap: 2rem;
+            }
+    }
+
+}

@@ -1,0 +1,12 @@
+.dot {
+   
+    height: 12px;
+    width: 12px;
+    background-color: #C2AA70;
+    border-radius: 50%;
+    display: inline-block;
+
+    &:hover {
+        background-color: #191919;
+    }
+}
