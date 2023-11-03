@@ -2,6 +2,7 @@ import React from 'react'
 import LadyPicture from '../../../images/article-news-lady.png'
 import ArticlePicture from '../../../images/article-news-grid.png'
 import BookPicture from '../../../images/article-news-books.png'
+import Button from '../../baseComponents/Button'
 
 const ArticleAndNews = () => {
   return (
@@ -13,7 +14,7 @@ const ArticleAndNews = () => {
             <p>Article & News</p>
             <h2>
                 Get Every Single Articles & News
-                <a class ="btn-transparent" href="#">Browse Articles <i className="fa-regular fa-arrow-up-right"></i></a>
+                <Button type="transparent" title="Browse Articles" url="/articles"  />
             </h2>
         </div>
         <div className="content">

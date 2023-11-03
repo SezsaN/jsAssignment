@@ -3,6 +3,7 @@ import TeamKristine from '../../../images/team-kristine.png'
 import TeamMark from '../../../images/team-mark.png'
 import TeamKimberly from '../../../images/team-kimberly.png'
 import TeamJustin from '../../../images/team-justin.png'
+import Button from '../../baseComponents/Button'
 
 const MeetOurTeam = () => {
   return (
@@ -12,7 +13,7 @@ const MeetOurTeam = () => {
                 <div className="section-title">
                     <p>Meet Our Team</p>
                     <h2>Experience Team Members
-                        <a class ="btn-browse-team" href="#">Browse Team <i className="fa-regular fa-arrow-up-right"></i></a>
+                        <Button type="team" title="Browse Team" url="/ourteam" />
                     </h2>        
                 </div>
                 <div className="members">

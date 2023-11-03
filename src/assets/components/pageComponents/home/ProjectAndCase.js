@@ -3,6 +3,7 @@ import ProjectPaper from '../../../images/project-paper.png'
 import ProjectApple from '../../../images/project-apple.png'
 import ProjectSupplies from '../../../images/project-supplies.png'
 import ProjectLaptop from '../../../images/project-laptop.png'
+import Button from '../../baseComponents/Button'
 
 const ProjectAndCase = () => {
   return (
@@ -36,7 +37,7 @@ const ProjectAndCase = () => {
                     </a>
                 </div>
                 <div className="center-content">
-                    <a class ="btn-black" href="#">All Recent Projects <i className="fa-regular fa-arrow-up-right"></i></a>
+                    <Button type="black" title="All Recent Projects" url="/projects" />
                 </div>
             </div>
         </section>

@@ -1,5 +1,7 @@
 import React from 'react'
 import SwirlyLines from '../../../images/our-services-lines.svg'
+import Button from '../../baseComponents/Button'
+import ServiceBox from '../../baseComponents/ServiceBox'
 
 const OurServices = () => {
   return (
@@ -11,35 +13,16 @@ const OurServices = () => {
                     <p className="title">Our Services</p>
                     <h2>We Provide The Best Service For Consulting</h2>
                 </div>
+                
                 <div className="content-bottom">
-                    <div className="business">
-                        <div className="small-line"></div>    
-                        <h3>Business Advice</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                        <a href="#"><i className="fa-light fa-arrow-right"></i></a>
-                    </div>
-                    <div className="startup">
-                        <div className="small-line"></div> 
-                        <h3>Startup Business</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                        <a href="#"><i className="fa-light fa-arrow-right"></i></a>
-                    </div>
-                    <div className="financial">
-                        <div className="small-line"></div> 
-                        <h3>Financial Advice</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                        <a href="#"><i className="fa-light fa-arrow-right"></i></a>
-                    </div>
-                    <div className="risk">
-                        <div className="small-line"></div> 
-                        <h3>Risk Management</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus.</p>
-                        <a href="#"><i className="fa-light fa-arrow-right"></i></a>
-                    </div>
+                    <ServiceBox title="Business Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="/services/businessadvice" />
+                    <ServiceBox title="Startup Business" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="/services/startupbusiness" />
+                    <ServiceBox title="Financial Advice" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="/services/financialadvice" />
+                    <ServiceBox title="Risk Management" description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis in nam possimus." url="/services/riskmanagement" />
                 </div>
             </div>
             <div className="bottom-button">
-                <a href="#" className="btn-transparent">Browse Services<i className="fa-regular fa-arrow-up-right"></i></a>
+                <Button type="transparent" title="Browse Services" url="/services" />
             </div>
         </section>
 

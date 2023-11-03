@@ -509,58 +509,16 @@ header .container .bottom-menu .btn-login {
     padding-top: 200px;
   }
 }
-.features .container .content-right .business-advice i {
+.features .container .content-right .features-box i {
   margin-bottom: 30px;
   font-size: 25px;
 }
-.features .container .content-right .business-advice h3 {
+.features .container .content-right .features-box h3 {
   font-family: "DM Sans", sans-serif;
   font-size: 22px;
   font-weight: 700;
 }
-.features .container .content-right .business-advice p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-.features .container .content-right .startup-business i {
-  margin-bottom: 30px;
-  font-size: 25px;
-}
-.features .container .content-right .startup-business h3 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-}
-.features .container .content-right .startup-business p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-.features .container .content-right .financial-advice i {
-  margin-bottom: 30px;
-  font-size: 25px;
-}
-.features .container .content-right .financial-advice h3 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-}
-.features .container .content-right .financial-advice p {
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-}
-.features .container .content-right .risk-management i {
-  margin-bottom: 30px;
-  font-size: 25px;
-}
-.features .container .content-right .risk-management h3 {
-  font-family: "DM Sans", sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-}
-.features .container .content-right .risk-management p {
+.features .container .content-right .features-box p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -756,112 +714,30 @@ header .container .bottom-menu .btn-login {
     align-content: center;
   }
 }
-.our-services .container .content-bottom .business {
+.our-services .container .content-bottom .service-box {
   background-color: #ffffff;
 }
-.our-services .container .content-bottom .business .small-line {
-  margin-top: 46px;
-  margin-left: 30px;
-}
-.our-services .container .content-bottom .business h3 {
-  margin-top: 46px;
-  margin-left: 30px;
-  font-family: "DM Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-}
-.our-services .container .content-bottom .business p {
-  margin-left: 30px;
-  margin-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-.our-services .container .content-bottom .business a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 218px;
-  background-color: #191919;
-  border: 1px solid #191919;
-  border-radius: 50px;
-  width: 56px;
-  text-decoration: none;
-  aspect-ratio: 1;
-}
-.our-services .container .content-bottom .business a i {
-  color: #F0EFE9;
-  font-size: 20px;
-}
-.our-services .container .content-bottom .business a:hover, .our-services .container .content-bottom .business a:hover i {
-  background-color: #F0EFE9;
-  border: 1px solid #F0EFE9;
-  color: #191919;
-  text-decoration: none;
-}
-.our-services .container .content-bottom .startup {
+.our-services .container .content-bottom .service-box:hover {
   background-color: #F9D783;
 }
-.our-services .container .content-bottom .startup .small-line {
+.our-services .container .content-bottom .service-box .small-line {
   margin-top: 46px;
   margin-left: 30px;
 }
-.our-services .container .content-bottom .startup h3 {
-  margin-top: 46px;
-  margin-left: 30px;
-  font-family: "DM Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-}
-.our-services .container .content-bottom .startup p {
-  margin-left: 30px;
-  margin-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-.our-services .container .content-bottom .startup a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 218px;
-  background-color: #ffffff;
-  border: 1px solid #191919;
-  border-radius: 50px;
-  color: #191919;
-  width: 56px;
-  text-decoration: none;
-  aspect-ratio: 1;
-}
-.our-services .container .content-bottom .startup a i {
-  color: #191919;
-  font-size: 20px;
-}
-.our-services .container .content-bottom .startup a:hover, .our-services .container .content-bottom .startup a:hover i {
-  background-color: #191919;
-  border: 1px solid #191919;
-  color: #F0EFE9;
-  text-decoration: none;
-}
-.our-services .container .content-bottom .financial {
-  background-color: #ffffff;
-}
-.our-services .container .content-bottom .financial .small-line {
-  margin-top: 46px;
-  margin-left: 30px;
-}
-.our-services .container .content-bottom .financial h3 {
+.our-services .container .content-bottom .service-box h3 {
   margin-top: 46px;
   margin-left: 30px;
   font-family: "DM Sans", sans-serif;
   font-size: 22px;
   font-weight: 700;
 }
-.our-services .container .content-bottom .financial p {
+.our-services .container .content-bottom .service-box p {
   margin-left: 30px;
   margin-right: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
 }
-.our-services .container .content-bottom .financial a {
+.our-services .container .content-bottom .service-box a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -869,59 +745,15 @@ header .container .bottom-menu .btn-login {
   background-color: #191919;
   border: 1px solid #191919;
   border-radius: 50px;
-  color: #191919;
   width: 56px;
   text-decoration: none;
   aspect-ratio: 1;
 }
-.our-services .container .content-bottom .financial a i {
+.our-services .container .content-bottom .service-box a i {
   color: #F0EFE9;
   font-size: 20px;
 }
-.our-services .container .content-bottom .financial a:hover, .our-services .container .content-bottom .financial a:hover i {
-  background-color: #F0EFE9;
-  border: 1px solid #F0EFE9;
-  color: #191919;
-  text-decoration: none;
-}
-.our-services .container .content-bottom .risk {
-  background-color: #ffffff;
-}
-.our-services .container .content-bottom .risk .small-line {
-  margin-top: 46px;
-  margin-left: 30px;
-}
-.our-services .container .content-bottom .risk h3 {
-  margin-top: 46px;
-  margin-left: 30px;
-  font-family: "DM Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-}
-.our-services .container .content-bottom .risk p {
-  margin-left: 30px;
-  margin-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-.our-services .container .content-bottom .risk a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 218px;
-  background-color: #191919;
-  border: 1px solid #191919;
-  border-radius: 50px;
-  color: #191919;
-  width: 56px;
-  text-decoration: none;
-  aspect-ratio: 1;
-}
-.our-services .container .content-bottom .risk a i {
-  color: #F0EFE9;
-  font-size: 20px;
-}
-.our-services .container .content-bottom .risk a:hover, .our-services .container .content-bottom .risk a:hover i {
+.our-services .container .content-bottom .service-box a:hover, .our-services .container .content-bottom .service-box a:hover i {
   background-color: #F0EFE9;
   border: 1px solid #F0EFE9;
   color: #191919;

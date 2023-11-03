@@ -2,6 +2,7 @@ import React from 'react'
 import ClientCassandra from '../../../images/client-cassandra.png'
 import ClientAmanda from '../../../images/client-amanda.png'
 import ClientJack from '../../../images/client-jack.png'
+import Button from '../../baseComponents/Button'
 
 
 const OurClients = () => {
@@ -50,7 +51,7 @@ const OurClients = () => {
                         </div>
                     </div>
                     <div className="center-content">
-                        <a class ="btn-black" href="#">All Reviews <i className="fa-regular fa-arrow-up-right"></i></a>
+                        <Button type="black" title="All Reviews" url="/reviews" />
                     </div>
                 </div>
         </section>

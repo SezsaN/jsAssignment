@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutCompanyImage from '../../../images/about-company-image.png'
+import Button from '../../baseComponents/Button'
 
 const AboutCompany = () => {
   return (
@@ -22,7 +23,7 @@ const AboutCompany = () => {
                     <p className="first-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nam quia nobis praesentium, ut in fuga facere quasi nulla, eum aliquam reiciendis asperiores exercitationem!</p>
                     <p className="second-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum doloremque iusto beatae perferendis.</p>
                     <div className="flex">
-                        <a class ="btn-black" href="#">Learn More <i className="fa-regular fa-arrow-up-right"></i></a>
+                        <Button type="black" title="Learn More" url="/company/learnmore" />
                         <a href="#">
                             <div className="btn-video">
                                 <i className="fa-sharp fa-solid fa-play"></i>

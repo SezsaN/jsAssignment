@@ -1,8 +1,10 @@
 import React from 'react'
 import FeatureLine from '../../../images/features-line.svg'
+import Button from '../../baseComponents/Button'
+
 
 const Features = () => {
-  return (
+    return (
     <>
     <section className="features">
         <div className="container">
@@ -11,26 +13,26 @@ const Features = () => {
                 <div className="left-title">
                     <p>Features</p>
                     <h2>Our Accounting is trusted by thousand of companies</h2>
-                    <a class ="btn-yellow" href="#">Learn More <i className="fa-regular fa-arrow-up-right"></i></a>
+                    <Button type="yellow" title="Learn More" url="/learnmore"/>
                 </div>
             </div>
             <div className="content-right">
-                <div className="business-advice">
+                <div className="features-box">
                     <i className="fa-light fa-handshake"></i>
                     <h3>Business Advice</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div className="startup-business">
+                <div className="features-box">
                     <i className="fa-regular fa-lightbulb-on"></i>
                     <h3>Startup Business</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div className="financial-advice">
+                <div className="features-box">
                     <i className="fa-light fa-chart-mixed"></i>
                     <h3>Financial Advice</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div className="risk-management">
+                <div className="features-box">
                     <i className="fa-sharp fa-light fa-box-open-full"></i>
                     <h3>Risk Management</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
@@ -43,3 +45,9 @@ const Features = () => {
 }
 
 export default Features
+
+
+
+
+
+    

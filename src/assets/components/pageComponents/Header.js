@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../images/crito-logotype.svg'
+import Button from '../baseComponents/Button'
 
 const Header = () => {
   return (
@@ -40,7 +41,7 @@ const Header = () => {
                         <a href="/news">News</a>
                         <a href="/contact">Contact</a>
                     </nav>
-                    <a className="btn-yellow btn-login" href="index.html">Login <i className="fa-regular fa-arrow-up-right"></i></a>
+                    <Button type="yellow" title="Login" url="/login"/>
                 </div>
             </div> 
         </div>
