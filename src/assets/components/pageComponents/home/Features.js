@@ -1,6 +1,7 @@
 import React from 'react'
 import FeatureLine from '../../../images/features-line.svg'
 import Button from '../../baseComponents/Button'
+import FeturesBox from '../../baseComponents/FeturesBox'
 
 
 const Features = () => {
@@ -17,26 +18,10 @@ const Features = () => {
                 </div>
             </div>
             <div className="content-right">
-                <div className="features-box">
-                    <i className="fa-light fa-handshake"></i>
-                    <h3>Business Advice</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div className="features-box">
-                    <i className="fa-regular fa-lightbulb-on"></i>
-                    <h3>Startup Business</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div className="features-box">
-                    <i className="fa-light fa-chart-mixed"></i>
-                    <h3>Financial Advice</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div className="features-box">
-                    <i className="fa-sharp fa-light fa-box-open-full"></i>
-                    <h3>Risk Management</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                </div>
+                <FeturesBox icon="fa-light fa-handshake" title="Business Advice" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit." />
+                <FeturesBox icon="fa-regular fa-lightbulb-on" title="Startup Business" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit." />
+                <FeturesBox icon="fa-light fa-chart-mixed" title="Financial Advive" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit." /> 
+                <FeturesBox icon="fa-sharp fa-light fa-box-open-full" title="Risk Management" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit." />
             </div>
         </div>
     </section>

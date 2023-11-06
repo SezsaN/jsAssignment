@@ -2,6 +2,7 @@ import React from 'react'
 import AboutCompanyImage from '../../../images/about-company-image.png'
 import Button from '../../baseComponents/Button'
 
+
 const AboutCompany = () => {
   return (
     <>
