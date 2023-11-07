@@ -4,6 +4,15 @@ import TeamMark from '../../../images/team-mark.png'
 import TeamKimberly from '../../../images/team-kimberly.png'
 import TeamJustin from '../../../images/team-justin.png'
 import Button from '../../baseComponents/Button'
+import MeetOurTeamBox from '../../baseComponents/MeetOurTeamBox'
+import Dots from '../../baseComponents/Dots'
+
+const ourTeams = [
+    { image: TeamKristine, alt: "Kristine Palmer, team member of crito", title: "Kristine Palmer", description: "Chef Operation Officer" },
+    { image: TeamMark, alt: "Mark Aubri, team member of crito", title: "Mark Aubri", description: "Senior Consultant" },
+    { image: TeamKimberly, alt: "Kimberly Hansen member of crito", title: "Kimberly Hansen", description: "Senior Consultant" },
+    { image: TeamJustin, alt: "Justin Willoman, team member of crito", title: "Justin Willoman", description: "Senior Tech Consultant"}
+]
 
 const MeetOurTeam = () => {
   return (
@@ -17,35 +26,14 @@ const MeetOurTeam = () => {
                     </h2>        
                 </div>
                 <div className="members">
-                    <div>
-                        <img src={TeamKristine} alt="Kristine Palmer, team member of crito" />
-                        <h3>Kristine Palmer</h3>
-                        <p>Chef Operation Officer</p>
-                    </div>
-                    <div>
-                        <img src={TeamMark} alt="Kristine Palmer, team member of crito" />
-                        <h3>Mark Aubri</h3>
-                        <p>Senior Consultant</p>
-                    </div>
-                    <div>
-                        <img src={TeamKimberly} alt="Kristine Palmer, team member of crito" />
-                        <h3>Kimberly Hansen</h3>
-                        <p>Senior Consultant</p>
-                    </div>
-                    <div>
-                        <img src={TeamJustin} alt="Kristine Palmer, team member of crito" />
-                        <h3>Justin Willoman</h3>
-                        <p>Senior Tech Consultant</p>
-                    </div>
+                    {
+                        ourTeams.map((team, index) => (
+                            <MeetOurTeamBox key={index} image={team.image} alt={team.alt} title={team.title} description={team.description} />
+                        ))
+                    }
                 </div>
                 <div>
-                    <a className="dots" href="#">
-                        <span className="dot"></span>
-                        <span className="dot"></span>
-                        <span className="dot"></span>
-                        <span className="dot"></span>
-                        <span className="dot"></span>
-                    </a>
+                    <Dots />
                 </div>
             </div>    
         </section>
