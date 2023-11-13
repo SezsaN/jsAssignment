@@ -17,31 +17,31 @@ const Footer = () => {
             </div>
             <div>
                 <h3>Company</h3>
-                <a href="#">About</a>
-                <a href="#">Features</a>
-                <a href="#">Works</a>
-                <a href="#">Career</a>
+                <a href="/company/about">About</a>
+                <a href="/company/features">Features</a>
+                <a href="/company/works">Works</a>
+                <a href="/company/career">Career</a>
             </div>
             <div>
                 <h3>Help</h3>
-                <a href="#">Costumer Support</a>
-                <a href="#">Delivery Details</a>
-                <a href="#">Terms & Conditions</a>
-                <a href="#">Privacy Policy</a>
+                <a href="/help/support">Costumer Support</a>
+                <a href="/help/details">Delivery Details</a>
+                <a href="/help/conditions">Terms & Conditions</a>
+                <a href="/help/policy">Privacy Policy</a>
             </div>
             <div>
                 <h3>Resources</h3>
-                <a href="#">Free eBooks</a>
-                <a href="#">Development Tutorial</a>
-                <a href="#">How to - Blog</a>
-                <a href="#">Youtube Playlist</a>
+                <a href="/resources/ebooks">Free eBooks</a>
+                <a href="/resources/tutorial">Development Tutorial</a>
+                <a href="/resources/blog">How to - Blog</a>
+                <a href="/resources/playlist">Youtube Playlist</a>
             </div>
             <div>
                 <h3>Link</h3>
-                <a href="#">Free eBooks</a>
-                <a href="#">Development Tutorial</a>
-                <a href="#">How to - Blog</a>
-                <a href="#">Youtube Playlist</a>
+                <a href="/link/ebooks">Free eBooks</a>
+                <a href="/link/tutorial">Development Tutorial</a>
+                <a href="/link/blog">How to - Blog</a>
+                <a href="/link/playlist">Youtube Playlist</a>
             </div>
         </div>
     </div>

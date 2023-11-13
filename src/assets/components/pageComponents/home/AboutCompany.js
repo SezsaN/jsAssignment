@@ -25,7 +25,7 @@ const AboutCompany = () => {
                     <p className="second-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum doloremque iusto beatae perferendis.</p>
                     <div className="flex">
                         <Button type="black" title="Learn More" url="/company/learnmore" />
-                        <a href="#">
+                        <a href="/introvideo">
                             <div className="btn-video">
                                 <i className="fa-sharp fa-solid fa-play"></i>
                             </div>
