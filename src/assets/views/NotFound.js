@@ -14,10 +14,10 @@ const NotFound = () => {
             <div className="home">
                 <Button type="yellow" title="Go back to home" url="/" />
             </div>
-        
-        
     </section>
   )
 }
 
 export default NotFound
+        
+        

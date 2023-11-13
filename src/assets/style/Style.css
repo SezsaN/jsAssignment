@@ -1520,7 +1520,7 @@ header .container .bottom-menu .btn-login {
 }
 .message-us .container .title {
   text-align: center;
-  padding-top: 220px;
+  padding-top: 200px;
 }
 .message-us .container .title h2 {
   font-family: "DM Sans", sans-serif;
@@ -1547,7 +1547,7 @@ header .container .bottom-menu .btn-login {
   border: 1px solid #DAD9D3;
   border-radius: 25px;
   width: 80%;
-  margin-top: 15px;
+  margin-top: 32px;
   padding: 15px 25px;
 }
 .message-us .container .user-information form textarea {
@@ -1555,7 +1555,7 @@ header .container .bottom-menu .btn-login {
   width: 80%;
   border: 1px solid #DAD9D3;
   border-radius: 25px;
-  margin-top: 15px;
+  margin-top: 32px;
   resize: none;
   padding: 15px 25px;
 }
