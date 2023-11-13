@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../images/crito-logotype.svg'
 import Button from '../baseComponents/Button'
+import { NavLink, Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -36,10 +37,10 @@ const Header = () => {
                 </div>  
                 <div className="bottom-menu">
                     <nav>
-                        <a className="active" href="/">Home</a>
-                        <a href="/service">Service</a>
-                        <a href="/news">News</a>
-                        <a href="/contact">Contact</a>
+                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/news">News</NavLink>
+                        <NavLink to="/detailnews">News Details</NavLink>
+                        <NavLink to="/contact">Contacts</NavLink>
                     </nav>
                     <Button type="yellow" title="Login" url="/login"/>
                 </div>
