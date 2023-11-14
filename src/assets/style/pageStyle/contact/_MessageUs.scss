@@ -1,6 +1,7 @@
 .message-us {
   
 
+
     .box {
         width: 100%;
         height: 100%;
@@ -35,6 +36,12 @@
 
         .user-information {
             padding-top: 20px;
+
+            .error {
+                color: red;
+
+                
+            }
             
 
             form {
@@ -68,6 +75,30 @@
                     
                     
                 }
+
+                button {
+                    background-color: #F9D783;
+                    border: 1px solid #F9D783;
+                    color:#191919;
+                    text-decoration: none;
+                    padding: 15px 25px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    border-radius: 25px;
+                    margin-left: 10px;
+                    width: 80%;
+                    margin-top: 70px;
+
+                    &:hover {
+                        background-color: #191919;
+                        color:#DAD9D3;
+                    }
+
+                    i{
+                        margin-left: 8px;
+                        
+                    }
+                }
             }
         }
 
@@ -88,7 +119,7 @@
             }
 
             @media (min-width: 1400px) {
-                margin-left: 130px;
+                margin-left: 10px;
             }
         }
     }

@@ -1538,6 +1538,9 @@ header .container .bottom-menu .btn-login {
 .message-us .container .user-information {
   padding-top: 20px;
 }
+.message-us .container .user-information .error {
+  color: red;
+}
 .message-us .container .user-information form {
   display: flex;
   flex-direction: column;
@@ -1559,6 +1562,26 @@ header .container .bottom-menu .btn-login {
   resize: none;
   padding: 15px 25px;
 }
+.message-us .container .user-information form button {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-left: 10px;
+  width: 80%;
+  margin-top: 70px;
+}
+.message-us .container .user-information form button:hover {
+  background-color: #191919;
+  color: #DAD9D3;
+}
+.message-us .container .user-information form button i {
+  margin-left: 8px;
+}
 .message-us .container a {
   display: flex;
   align-items: center;
@@ -1579,7 +1602,7 @@ header .container .bottom-menu .btn-login {
 }
 @media (min-width: 1400px) {
   .message-us .container a {
-    margin-left: 130px;
+    margin-left: 10px;
   }
 }
 
