@@ -16,7 +16,7 @@ const Showcase = () => {
             </div>
             <img src={ManPicture} alt="image of a man in a suit holding a tablet" />
         </div>
-        <img class ="background-line" src={Line} alt="background line in showcase section" />
+        <img className ="background-line" src={Line} alt="background line in showcase section" />
         </section>
     </>
   )
