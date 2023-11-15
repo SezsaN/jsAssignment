@@ -7,6 +7,7 @@
 @import './generics/sectionTitle.scss';
 @import './generics/centerContent.scss';
 @import './generics/smallLine.scss';
+@import './generics/NewsButton.scss';
 // pageStyling
 @import './pageStyle/home/Header.scss';
 @import './pageStyle/home/Showcase.scss';
@@ -27,6 +28,7 @@
 @import './pageStyle/contact/MessageUs.scss';
 @import './pageStyle/contact/Map.scss';
 @import './pageStyle/notFound/NotFound.scss';
+@import './pageStyle/news/Articles.scss';
 
 html, body {
     color: #191919;

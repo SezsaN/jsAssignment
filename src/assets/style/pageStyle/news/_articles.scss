@@ -1,0 +1,38 @@
+.news-articles {
+
+    .container{
+
+        h2{
+            font-size: 45px;
+            margin-top: 70px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        .articles {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+
+            img {
+                width: 420px;
+                height: 230px;
+            }
+
+            h3 {
+                font-size: 22px;
+                font-weight: 700;
+                margin-top:20px;
+                font-family: 'DM Sans', sans-serif;
+            }
+
+            p{
+                font-size: 16px;
+                font-family: 'Inter', sans-serif;
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,26 @@
+.news-button {
+    align-items: center;
+    text-align: center;
+    
+    .news-btn {
+        
+       
+        border-radius: 25%;
+        border-width: 15px;
+        display: inline-block;
+        color: #191919;
+        background-color: white;
+        margin: 5px;
+        margin-bottom: 70px;
+        margin-top:60px;
+        font-size: 16px;
+        padding: 5px 10px;
+        
+    
+        &:hover {
+            background-color: #191919;
+            color: #F0EFE9;
+            cursor: pointer;
+        }
+    }
+}

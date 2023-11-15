@@ -144,6 +144,28 @@
   background-color: #191919;
 }
 
+.news-button {
+  align-items: center;
+  text-align: center;
+}
+.news-button .news-btn {
+  border-radius: 25%;
+  border-width: 15px;
+  display: inline-block;
+  color: #191919;
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 70px;
+  margin-top: 60px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.news-button .news-btn:hover {
+  background-color: #191919;
+  color: #F0EFE9;
+  cursor: pointer;
+}
+
 header {
   background-color: #F0EFE9;
   padding: 10px;
@@ -1689,6 +1711,33 @@ header .container .bottom-menu .btn-login {
     font-weight: 700;
     margin: 0;
   }
+}
+
+.news-articles .container h2 {
+  font-size: 45px;
+  margin-top: 70px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: "DM Sans", sans-serif;
+}
+.news-articles .container .articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.news-articles .container .articles img {
+  width: 420px;
+  height: 230px;
+}
+.news-articles .container .articles h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+.news-articles .container .articles p {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
 }
 
 html, body {
