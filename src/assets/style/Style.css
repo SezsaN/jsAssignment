@@ -101,6 +101,27 @@
   text-decoration: none;
 }
 
+.btn-white {
+  background-color: #ffffff;
+  border: 1px solid #b6b5b5;
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 25px;
+}
+.btn-white i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+.btn-white:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #F0EFE9;
+  text-decoration: none;
+}
+
 .dot {
   height: 12px;
   width: 12px;
@@ -1725,6 +1746,11 @@ header .container .bottom-menu .btn-login {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
+.news-articles .container .articles a {
+  color: #191919;
+  text-decoration: none;
+  position: relative;
+}
 .news-articles .container .articles img {
   width: 420px;
   height: 230px;
@@ -1738,6 +1764,210 @@ header .container .bottom-menu .btn-login {
 .news-articles .container .articles p {
   font-size: 16px;
   font-family: "Inter", sans-serif;
+}
+.news-articles .container .articles .date-box {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #F9D783;
+  align-items: center;
+  text-align: center;
+}
+.news-articles .container .articles .date-box .day {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 0;
+}
+.news-articles .container .articles .date-box .day .month {
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.details-art-news {
+  background-color: #F0EFE9;
+}
+.details-art-news .container .section-title p {
+  padding-top: 120px;
+}
+.details-art-news .container .section-title h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.details-art-news .container .content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+}
+@media (min-width: 768px) {
+  .details-art-news .container .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+.details-art-news .container .content .first-section {
+  position: relative;
+}
+.details-art-news .container .content .pic {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+.details-art-news .container .content h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.details-art-news .container .dots {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+.details-art-news .container .dot {
+  margin: 7px;
+  background-color: #DAD9D3;
+}
+.details-art-news .container .dot:hover {
+  background-color: #191919;
+}
+
+.digitalization .container {
+  display: flex;
+  justify-content: space-between;
+}
+.digitalization .container .content-left .section-title h2 {
+  margin-top: 6rem;
+  font-weight: 700;
+}
+.digitalization .container .content-left .article-date {
+  display: flex;
+  margin-top: 2rem;
+}
+.digitalization .container .content-left .article-date p {
+  margin-right: 0.2rem;
+}
+.digitalization .container .content-left .article-date .dot {
+  margin: 0 2rem;
+  background-color: #F9D783;
+}
+.digitalization .container .content-left .article-content .article-image img {
+  width: 750px;
+  height: 500px;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.digitalization .container .content-left .article-description-one p {
+  font-size: 0.92rem;
+  font-family: "Inter", sans-serif;
+}
+.digitalization .container .content-left .article-description-big h4 {
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.digitalization .container .content-left .article-description-last p {
+  font-size: 0.92rem;
+  font-family: "Inter", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.digitalization .container .content-left .article-tags p {
+  background-color: #dfdddd;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  margin: 0 1rem 4rem;
+}
+.digitalization .container .content-right .search-bar {
+  position: relative;
+}
+.digitalization .container .content-right .search-bar i {
+  position: absolute;
+  top: 19.5rem;
+  z-index: 1;
+  right: 23rem;
+  z-index: 2;
+}
+.digitalization .container .content-right .search-bar input {
+  border-radius: 25px;
+  border: none;
+  background-color: #dfdddd;
+  padding: 0.3rem 3rem;
+  position: relative;
+  z-index: 1;
+  float: right;
+  margin-top: 19rem;
+  width: 400px;
+}
+.digitalization .container .content-right .empty-box {
+  border: 1px solid #dfdddd;
+  width: 400px;
+  height: 460px;
+  position: absolute;
+  right: 19rem;
+  top: 52rem;
+}
+.digitalization .container .content-right .recent-posts {
+  margin-top: 25rem;
+  margin-left: 4rem;
+}
+.digitalization .container .content-right .recent-posts .title h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.digitalization .container .content-right .recent-posts .title .small-line {
+  margin-top: -1.9rem;
+  margin-bottom: 1rem;
+}
+.digitalization .container .content-right .recent-written-posts h4 {
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.digitalization .container .content-right .recent-written-posts p {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+.digitalization .container .content-right .recent-written-posts .line {
+  width: 300px;
+  height: 1px;
+  background-color: #d4d4d4;
+  margin-bottom: 1rem;
+}
+.digitalization .container .content-right .empty-box-two {
+  border: 1px solid #dfdddd;
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  right: 19rem;
+  top: 84rem;
+}
+.digitalization .container .content-right .categories {
+  margin-top: 7rem;
+}
+.digitalization .container .content-right .categories .categories-list {
+  display: inline-block;
+}
+.digitalization .container .content-right .categories .categories-list .bold {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}
+.digitalization .container .content-right .categories .categories-list .posts {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: #7e7d7d;
 }
 
 html, body {

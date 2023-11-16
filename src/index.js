@@ -12,6 +12,7 @@ import { ArticleProvider } from './assets/contexts/ArticleContexts';
 
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -20,7 +21,7 @@ root.render(
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/news" element={<News />} />
-          <Route path="/newsDetails" element={<NewsDetails />} />
+          <Route path="/news/:id" element={<NewsDetails />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

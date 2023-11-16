@@ -12,6 +12,8 @@ const Button = ({ type, title, url }) => {
                 return 'btn-transparent'
             case 'video':
                 return 'btn-video'
+            case 'white':
+                return 'btn-white'
             default:
                 return 'btn-browse-team'
         }

@@ -9,7 +9,7 @@ const NewsAndArticles = () => {
             <div className="container">
                 <div className="connect">
                     <NavLink to="/">Home</NavLink>
-                    <NavLink to="/newsDetails">News</NavLink>
+                    <NavLink to="/news">News</NavLink>
                     <h2>News & Articles</h2>
                 </div>
             </div>
