@@ -30,7 +30,7 @@ const Articles = () => {
                 <div className="articles">
                     {
                         articles.map(article => (
-                            <ArticleBox id={article.id} imageUrl={article.imageUrl} title={article.title} author={article.author} content={article.content} month={months[article.published.slice(5, 7)]} day={article.published.slice(8, 10)} />
+                            <ArticleBox key={article.id} id={article.id} imageUrl={article.imageUrl} title={article.title} author={article.author} content={article.content} month={months[article.published.slice(5, 7)]} day={article.published.slice(8, 10)} />
                         ))}
                 </div>
                 <NewsButtons />
